@@ -1,0 +1,32 @@
+{
+    "baseURL":"http://127.0.0.1:/api/v1",
+    "api":{
+        "user":{
+            "create":"/user",
+            "update":"/user/",
+            "delete":"/user/",
+            "getSingle":"/user/",
+            "getAll":"/user",
+            "login":"/user/login"
+        },
+        "student":{
+            "create":"/student",
+            "update":"/student/",
+            "delete":"/student/",
+            "getSingle":"/student/",
+            "getAll":"/student"
+        },
+        "faculty":{
+            "create":"/faculty",
+            "update":"/faculty/",
+            "delete":"/faculty/",
+            "getSingle":"/faculty/",
+            "getAll":"/faculty"
+        },
+        "auth":{
+            "resetLink":"/auth/password-reset-Link",
+            "refreshToken":"/auth/refresh"
+        }
+
+    }
+}
